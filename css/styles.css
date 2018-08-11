@@ -1,0 +1,57 @@
+.instagram-social-media-matrix {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.instagram-social-media-matrix a,
+.instagram-social-media-matrix a:hover {
+  box-shadow: none;
+}
+
+.instagram-social-media-matrix .media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  background-color: #eeeeee;
+  color: #009bdb;
+}
+
+.instagram-social-media-matrix .media.media-phrase {
+  width: 40%;
+  text-align: center;
+}
+
+.instagram-social-media-matrix .media.media-image {
+  overflow: hidden;
+}
+
+.instagram-social-media-matrix .media.media-image > div {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  transition: transform .5s ease;
+}
+
+.instagram-social-media-matrix .media.media-image:hover > div {
+  transform: rotateZ(2deg) scale(1.1);
+}
+
+.instagram-social-media-matrix .media i {
+  align-self: center;
+}
+
+@media (max-width: 768px) {
+  .instagram-social-media-matrix .media {
+    width: 33.333333%;
+  }
+  .instagram-social-media-matrix .media.media-social,
+  .instagram-social-media-matrix .media.media-phrase {
+    display: none;
+  }
+}
