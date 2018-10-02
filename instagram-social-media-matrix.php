@@ -3,7 +3,7 @@
 Plugin Name: Instagram Social Media Matrix
 Plugin URI: https://github.com/mdperez86/instagram-social-media-matrix
 Description: A WordPress widget for showing Instagram photos with social media links.
-Version: 1.0.0
+Version: 1.0.1
 Author: Maikel David Perez Gomez
 Author URI: https://www.linkedin.com/in/mdperez86
 Text Domain: instagram-social-media-matrix

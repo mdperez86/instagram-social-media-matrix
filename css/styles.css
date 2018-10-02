@@ -1,6 +1,5 @@
 .instagram-social-media-matrix {
   display: flex;
-  flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
 }
@@ -12,9 +11,10 @@
 
 .instagram-social-media-matrix .media {
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-flow: column;
   align-items: center;
+  align-content: center;
+  justify-content: center;
   width: 20%;
   background-color: #eeeeee;
   color: #009bdb;
@@ -23,6 +23,7 @@
 .instagram-social-media-matrix .media.media-phrase {
   width: 40%;
   text-align: center;
+  font-weight: 700;
 }
 
 .instagram-social-media-matrix .media.media-image {
